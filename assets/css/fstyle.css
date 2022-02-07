@@ -1,0 +1,16 @@
+.form2 {
+  display: flex;
+
+}
+.tittle {
+  margin: 25px;
+ 
+}
+body {
+  background-image: url("/assets/images/flower.jpg");
+  background-size: cover;
+}
+
+.tittle h2 {
+  font-family: 'Playfair Display', serif;
+}

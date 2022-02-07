@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+
+ <!--link to stylesheet-->
+
+ <link rel="stylesheet" href="./assets/css/fstyle.css">
+
+<!---link to font styles-->
+ <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!--Form container-->
+  <div class="tittle">
+    <h2>Booking Details</h2>
+  <form class="form2" action="https://formspree.io/f/xpzbpkbd" method="post">
+    <fieldset class="main-container">
+      <legend>Basic Info</legend>
+      <div>
+      <label for="user">First Name: </label>
+       <input type="text" name="user" id="user" placeholder="required" required size="15"> 
+      </div><br>
+      <div>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="required" required>
+      </div> <br>
+     <div>
+        <label for="phn">Phone: </label>
+        <input type="number" name="phn" id="phn" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+     </div> <br>
+     <div>
+      <label for="addr">Address :</label>
+      <input type="text" name="addr" id="addr" placeholder="Address line">
+      </div> <br>
+      <div>
+        <label for="date">Requested Date: </label>
+       <input type="date" id="date" name="date">
+       </div>
+       <br>
+      <div>
+       <label for="treat">Type of Treatments: </label>
+      <select name="treat" id="treat">
+      <option value="meni">Manicure</option>
+      <option value="Pedi">Pedicure </option>
+      <option value="face">Facial</option>    
+      <option value="thread">Threading </option>
+       <option value="massage">Massage</option>
+
+      </select>
+     </div>
+     <br>
+    <div>
+      <label for="msg">Message: </label>
+       <textarea  type="message" name="message" id="message"  rows="4" cols="15" placeholder="optional" optional> </textarea>
+      </div>
+       <br>
+      <div class="btn">
+      <input type="submit" value="Book an Appoinment" class="btnstyle">
+      
+      </fieldset>
+    </div>
+    </form>
+  </div>
+</body>
+</html>

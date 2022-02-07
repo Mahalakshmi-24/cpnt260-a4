@@ -1,0 +1,157 @@
+/***Body Container***/
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/***navbar links***/
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;  
+  list-style: none;
+  gap: 15px;
+
+
+  font-size: 24px;
+  margin-right: 10px;
+  font-family: 'Gelasio', serif;
+}
+
+.image-container {
+  
+  display: flex;
+
+  background-image: url("/assets/images/spa-center.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  
+
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+
+.section2,
+.details {
+  display: flex;
+
+  text-align: center;
+}
+
+
+/***form styles***/
+.form1 {
+  display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px;
+}
+
+/***navbar styles***/
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/***font styles***/
+.header {
+  font-family: 'Gelasio', serif;
+  margin-left: 15px;
+}
+
+.tittle-container {
+  font-family: 'Gelasio', serif;
+  margin-left: 15px;
+}
+
+.section3 h2{
+  margin-left: 20px;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.btn{
+  text-decoration: none;
+    color: black;
+    background-color: #dfb784;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contant-container {
+  margin-top: 50px;
+    margin-left: 25px;
+    
+}
+
+
+.about {
+  background-color: #974b55;
+  color: ghostwhite;
+}
+
+.details {
+  background-color: #dfb784;
+  color: ghostwhite;
+  padding: 10px;
+}
+
+.about,
+.package,
+.gift {
+  padding: 10px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.about a {
+  text-decoration: none;
+    color: white;
+    background-color: #dfb784;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.package a,
+.gift a {
+  text-decoration: none;
+    color: white;
+    background-color: #974b55;
+    border-radius: 7px;
+    padding: 7px;;
+}
+
+
+
+.section3 {
+  background-image: url("/assets/images/flower.jpg");
+  background-size: cover;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/***media queries***/
+@media screen and (max-width: 700px) {
+
+  .section2
+   {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

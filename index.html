@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+
+   <!--link to stylesheet-->
+
+   <link rel="stylesheet" href="./assets/css/main.css">
+  
+  <!--link to line awesome-->
+   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
+   <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@600&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+
+<body>
+  <!--Main container-->
+  <div class="main-container">
+    <article class="tittle-container">
+       <h1>SPA CENTER</h1>
+    </article> 
+    <article class="tittle-nav"> 
+      <nav class="nav-container">
+        <ul class="nav-links">
+        <li><a href="about.html"> Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="index.html">Gallery</a></li>
+        <li>Locations</li>
+        <li>Contact Us</li>
+        </ul>
+      </nav>
+    </article>
+   </div>
+
+   <!--Hero section-->
+   <div class="image-container">
+     <article class="contant-container">
+       <h2>Manicure, Pedicure, Threading & Waxing </h2>
+       <p>Look your best while taking care of your hands,feets, body and face</p>
+       <a href="f" class="btn">Book an Appoinment</a>
+     </article>
+   </div>
+
+   <!--Content of the page-->
+   <div class="section2">
+    <section class="about">
+      <h3>About Us</h3>
+      <h2>A Few Words About Us</h2>
+      <p>Spa center, is your premiere spa & massage therapy centre that delivers high level services for both mind and body.</p> 
+      <a href="">Learn More</a>
+    </section>
+    <section class="details">
+      <article class="package">
+        <img src="https://img.icons8.com/fluency/48/000000/gift--v1.png"/>
+        <h3>Package of the month</h3>
+        <p>To show our appreciation, we offer you special promotions throughout the year.</p>
+        <a href="">Promotions</a>
+      </article>
+      <article class="gift">
+        <img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-card-online-shopping-vitaliy-gorbachev-flat-vitaly-gorbachev.png"/>
+        <h3>Online gift cards</h3>
+        <p>Looking for the beauty services of the utmost quality? We can help you.</p>
+        <a href="">Buy Now</a>
+
+      </article>
+    </section>
+  </div>
+
+  <!---Form section-->
+  <div class="section3">
+    <h2>Give a message</h2>
+    <form class="form1" action="https://formspree.io/f/xqknpwwv" method="post">
+      <fieldset>
+        <legend>Basic Info</legend>
+        <div>
+          <label for="user">Name: </label>
+          <input type="text" name="user" id="user" placeholder="required" required size="15">
+        </div><br>
+        <div>
+          <label for="email">Email: </label>
+          <input type="text" name="email" id="email" placeholder="required" required>
+        </div> <br>
+        <div>
+          <label for="phn">Phone: </label>
+          <input type="number" name="phn" id="phn" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+        </div><br>
+        <div>
+          <label for="msg">Message: </label>
+          <textarea  type="message" name="message" id="message"  rows="4" cols="15" placeholder="optional" optional> </textarea>
+       </div>
+        <br>
+
+       <div class="btn1">
+         <input type="submit" value="submit" class="btnstyle"></div>
+       <br>
+      </fieldset>
+    </form>
+  </div>
+
+  <!--Footer section-->
+  <div class="footer">
+    @2022 MIT
+  </div>
+  </div>
+</body>
+</html>
